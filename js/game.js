@@ -231,7 +231,7 @@ function Clock(countdown,level){
 
 	var self = this;
 	self.level = level;
-	self.framePerTick = 50/countdown;
+	self.framePerTick = 30/countdown;
 
 	var enterSide = null;
 	var exitSide = null;
